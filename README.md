@@ -1,2 +1,2 @@
-# personal-website
-Welcome to my Personal Website!
+# Personal Website
+Based on the template from [Ozayr Raazi](https://www.ozayr.cc/)
