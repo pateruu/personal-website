@@ -491,10 +491,12 @@ input[name="btnradioprojects"]:checked+label {
     align-items: center;
     border-radius: 5px;
     overflow: auto;
-    background-color: #212121;
+    background: linear-gradient(145deg, #1e0f25, #2a1035);
     height: 100%;
     transition: 0.2s ease-in-out;
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 12px rgba(168, 85, 247, 0.15);
+
 }
 
 /* Show the card */
@@ -574,28 +576,41 @@ input[name="btnradioprojects"]:checked+label {
 }
 
 /* -- Badges --*/
-.badges-group-large {
+.badges-group-large a{
     text-align: start;
     padding-left: 2rem;
     padding-right: 2rem;
+    text-decoration: none !important;
+    margin-bottom: rem;
+}
+
+.projects-link-placeholder {
+    width: 58px;
+    height: 58px;
+    display: inline-block;
+
 }
 
 .badges-group-small {
     text-align: center;
     padding-bottom: 2rem;
+
 }
 
 .projects-badge {
     padding: 10px;
     border-radius: 5px;
-    background-color: #D00000;
+    background-color: #7C3AED;
+    color: white;
 }
 
 .projects-link-badge {
     padding: 10px;
     border-radius: 50%;
-    background-color: #D00000;
+    background-color: #7C3AED;
     transition: 0.3s ease-in-out;
+    margin-right: -15px;
+    margin-bottom: 8px;
 }
 
 .projects-link-badge:hover {
