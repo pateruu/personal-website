@@ -243,8 +243,8 @@
                                 <h2>Biro-1 Media Controller</h2>
                                 <ul>
                                     <li class="card-text">Developing a custom PCB-based media controller with mechanical keys, a rotary haptic dial, and USB-C connectivity.</li>
-                                    <li class="card-text">Designing the 3D-printed chassis and internal layout; implementing USB firmware for host communication over USB-C.</li>
-                                    <li class="card-text">Assisted with firmware development and RTOS integration for full system functionality.</li>
+                                    <li class="card-text">Designing the 3D-printed chassis and internal PCB layout, with firmware for USB host communication and wireless pairing.</li>
+                                    <li class="card-text">Collaborating on battery management, power delivery, and full system integration with RTOS-based firmware support.</li>
                                 </ul>
                             </div>
                             <div class="badges-group-large">
@@ -253,9 +253,10 @@
                                         <img alt="Clickable GitHub Icon" src="./assets/github_circle.svg" class="projects-badge-icons" style="filter: invert(1);"/>
                                     </span>
                                 </a>
-                                <span class="badge projects-badge">KiCAD</span>
-                                <span class="badge projects-badge">PCB</span>
                                 <span class="badge projects-badge">C++</span>
+                                <span class="badge projects-badge">PCB</span>
+                                <span class="badge projects-badge">Firmware</span>
+                                <span class="badge projects-badge">Bluetooth</span>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -272,9 +273,9 @@
                             <div class="card-body">
                                 <h2>Matrix-Vector Multiplication Engine</h2>
                                 <ul>
-                                    <li class="card-text">Built an 8-lane accelerator inspired by Microsoft Brainwave using pipelined dot-product and accumulation units.</li>
-                                    <li class="card-text">Implemented control FSM for sequencing memory reads and accumulation across lanes.</li>
-                                    <li class="card-text">Achieved 150+ MHz throughput verified with parameterized testbench on FPGA.</li>
+                                    <li class="card-text">Built an 8-lane MVM accelerator inspired by Microsoft Brainwave, using pipelined dot-product and accumulation units with 8 DSP blocks per lane.</li>
+                                    <li class="card-text">Designed a control FSM to sequence matrix/vector memory reads and coordinate accumulation across lanes.</li>
+                                    <li class="card-text">Verified correctness with a parameterized testbench, achieving 150+ MHz throughput on FPGA.</li>
                                 </ul>
                             </div>
                             <div class="badges-group-large">
@@ -286,6 +287,7 @@
                                 <span class="badge projects-badge">SystemVerilog</span>
                                 <span class="badge projects-badge">Vivado</span>
                                 <span class="badge projects-badge">FSM</span>
+                                <span class="badge projects-badge">DSP</span>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -301,9 +303,9 @@
                             <div class="card-body">
                                 <h2>Fixed-Point Tanh Accelerator</h2>
                                 <ul>
-                                    <li class="card-text">Designed a 23-stage pipelined tanh circuit using an 11th-degree Taylor approximation (Q2.12 format).</li>
-                                    <li class="card-text">Integrated ready/valid handshake for stall-safe streaming.</li>
-                                    <li class="card-text">Closed timing at 180+ MHz after FPGA synthesis on Pynq-Z1 FPGA.</li>
+                                    <li class="card-text">Designed a 23-stage pipelined tanh circuit using an 11th-degree Taylor approximation in Q2.12 fixed-point format.</li>
+                                    <li class="card-text">Integrated a ready/valid handshake protocol for stall-safe streaming operation.</li>
+                                    <li class="card-text">Met timing closure at 180+ MHz after FPGA synthesis on the Pynq-Z1 board.</li>
                                 </ul>
                             </div>
                             <div class="badges-group-large">
@@ -314,6 +316,7 @@
                                 </a>
                                 <span class="badge projects-badge">SystemVerilog</span>
                                 <span class="badge projects-badge">Vivado</span>
+                                <span class="badge projects-badge">Fixed Point Q2.12</span>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -329,9 +332,10 @@
                             <div class="card-body">
                                 <h2>Automated Watering System</h2>
                                 <ul>
-                                    <li class="card-text">Developed STM32-based watering system for home gardening.</li>
-                                    <li class="card-text">Used soil moisture sensors + pump drivers for automated water delivery.</li>
-                                    <li class="card-text">Implemented control firmware in C++ and validated through testing.</li>
+                                    <li class="card-text">Developed a STM32-based watering system for home gardening.</li>
+                                    <li class="card-text">Controlled pumps and sensors with real-time logic to maintain optimal moisture levels.</li>
+                                    <li class="card-text">Created AutoCAD layouts and system architecture diagrams for chassis design, and validated performance through testing.</li>
+
                                 </ul>
                             </div>
                             <div class="badges-group-large">
@@ -342,7 +346,8 @@
                                 </a>
                                 <span class="badge projects-badge">Embedded Systems</span>
                                 <span class="badge projects-badge">STM32</span>
-                                <span class="badge projects-badge">C++</span>
+                                <span class="badge projects-badge">Arduino</span>
+                                <span class="badge projects-badge">AutoCAD</span>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -358,9 +363,9 @@
                             <div class="card-body">
                                 <h2>LEDify (Smart LED System)</h2>
                                 <ul>
-                                    <li class="card-text">Implemented firmware on ESP32/ESP8266 microcontrollers for smooth LED animations and Wi-Fi control.</li>
-                                    <li class="card-text">Integrated hardware drivers for a 10m LED strip (600 LEDs) with efficient power management.</li>
-                                    <li class="card-text">Bridged embedded code with responsive web UI for real-time user interaction.</li>
+                                    <li class="card-text">Built an ESP32/ESP8266-based smart LED control system with a responsive web interface for real-time brightness, color, and animations.</li>
+                                    <li class="card-text">Integrated Adafruit NeoPixel drivers for smooth control of a 10m strip with 600 LEDs, optimizing performance and power management.</li>
+                                    <li class="card-text">Delivered a portable lighting system bridging embedded firmware with an intuitive web UI.</li>
                                 </ul>
                             </div>
                             <div class="badges-group-large">
@@ -369,9 +374,9 @@
                                         <img alt="Clickable GitHub Icon" src="./assets/github_circle.svg" class="projects-badge-icons" style="filter: invert(1);"/>
                                     </span>
                                 </a>
-                                <span class="badge projects-badge">Embedded Systems</span>
-                                <span class="badge projects-badge">ESP32</span>
+                                <span class="badge projects-badge">ESP32/ESP8266</span>
                                 <span class="badge projects-badge">C++</span>
+                                <span class="badge projects-badge">Web UI</span>
                                 <span class="badge projects-badge">Wi-Fi</span>
                             </div>
                         </div>
@@ -390,7 +395,8 @@
                                 <ul>
                                     <li class="card-text">C++ projects implementing core data structures and algorithms with real-world applications.</li>
                                     <li class="card-text">Projects included playlist manager, spell checker (Trie), tokenization system, and emergency routing with graphs.</li>
-                                    <li class="card-text">Focused on efficiency, correctness, and scalability.</li>
+                                    <li class="card-text">Emphasized clean OOP design, memory safety, and algorithmic efficiency.</li>
+
                                 </ul>
                             </div>
                             <div class="badges-group-large">
@@ -399,9 +405,10 @@
                                         <img alt="Clickable GitHub Icon" src="./assets/github_circle.svg" class="projects-badge-icons" style="filter: invert(1);"/>
                                     </span>
                                 </a>
-                                <span class="badge projects-badge">C++</span>
-                                <span class="badge projects-badge">Algorithms</span>
                                 <span class="badge projects-badge">Data Structures</span>
+                                <span class="badge projects-badge">Algorithms</span>
+                                <span class="badge projects-badge">OOP</span>
+                                <span class="badge projects-badge">C++</span>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -417,14 +424,15 @@
                             <div class="card-body">
                                 <h2>ASA DataFest Competition</h2>
                                 <ul>
-                                    <li class="card-text">48-hour hackathon analyzing large-scale datasets with a 4-person team.</li>
-                                    <li class="card-text">Produced actionable insights and secured first place by presenting findings to judges.</li>
+                                    <li class="card-text">Competed in a 48-hour international hackathon analyzing large-scale datasets as part of a 4-person team.</li>
+                                    <li class="card-text">Produced actionable insights and secured <b>1st place</b> ($2000 prize) out of 20 teams (75+ students internationally).</li>
                                 </ul>
                             </div>
                             <div class="badges-group-large">
                                 <div class="projects-link-placeholder"></div>
                                 <span class="badge projects-badge">Data Analysis</span>
                                 <span class="badge projects-badge">Teamwork</span>
+                                <span class="badge projects-badge">Hackathon</span>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -439,14 +447,17 @@
                             <div class="card-body">
                                 <h2>Dr. Discord</h2>
                                 <ul>
-                                    <li class="card-text">Python-based Discord bot to analyze user-inputted symptoms and suggest possible disease outcomes.</li>
-                                    <li class="card-text">Built with Discord API integration and research team collaboration.</li>
+                                    <li class="card-text">Built a Python-based Discord bot to analyze user-input symptoms and suggest possible disease outcomes.</li>
+                                    <li class="card-text">Integrated with Discord API and collaborated with a research team to design a health-focused recommendation system.</li>
+                                    <li class="card-text">Won Best HealthTech Project out of 100+ participants at a hackathon.</li>
                                 </ul>
                             </div>
                             <div class="badges-group-large">
                                 <div class="projects-link-placeholder"></div>
                                 <span class="badge projects-badge">Python</span>
                                 <span class="badge projects-badge">API Integration</span>
+                                <span class="badge projects-badge">Hackathon</span>
+                                <span class="badge projects-badge">Health-Tech</span>
                             </div>
                         </div>
                         <div class="col-lg-7">
@@ -482,9 +493,10 @@
                                     <h2 style="color: #efefef; padding-top: 2%;">Software Developer (Co-op)</h2>
                                     <h3 class="sourcesanspro-text">Android | uSOM 820 | System Optimization</h3>
                                     <ul>
-                                        <li class="sourcesanspro-text">Built a custom Android kiosk system with launcher, boot animation, and lockdown features.</li>
-                                        <li class="sourcesanspro-text">Reduced boot time by 4.4s and increased memory bandwidth by 37% through OS optimizations.</li>
-                                        <li class="sourcesanspro-text">Worked directly with system partitions and flashing tools to deploy/debug builds.</li>
+                                        <li class="sourcesanspro-text">Built a custom Android kiosk system with a launcher, boot animation, and lockdown features.</li>
+                                        <li class="sourcesanspro-text">Worked directly with system partitions and flashing tools to deploy builds and debug board-level issues.</li>
+                                        <li class="sourcesanspro-text">Reduced boot time by 4.4s and increased memory bandwidth by 37% on the uSOM 820 via OS optimizations.</li>
+                                        <li class="sourcesanspro-text">Wrote cleanup scripts to remove bloatware, clear temp files, and limit background activity to reduce memory usage.</li>
                                     </ul>
                                     <div class="col-12 text-end text-sm-start">
                                         <a class="btn btn-contact" href='https://www.pinkbyte.com/' role="button"> Visit Website</a>
@@ -510,9 +522,10 @@
                                     <h2 style="color: #efefef; padding-top: 2%;">Technical Writer (Co-op)</h2>
                                     <h3 class="sourcesanspro-text">JIRA | GitHub | API Documentation</h3>
                                     <ul>
-                                        <li class="sourcesanspro-text">Created user-friendly technical docs for bi-weekly code drops, reaching 500+ developers.</li>
-                                        <li class="sourcesanspro-text">Monitored software process with JIRA & GitHub, reducing turnaround by 20%.</li>
-                                        <li class="sourcesanspro-text">Improved API doc consistency, decreasing customer support tickets by 15%.</li>
+                                        <li class="sourcesanspro-text">Created user-friendly technical documentation for bi-weekly code drop releases, reaching 500+ developers.</li>
+                                        <li class="sourcesanspro-text">Monitored the software development process with JIRA & GitHub, reducing turnaround time by 20%.</li>
+                                        <li class="sourcesanspro-text">Ensured accuracy and consistency of API documentation, leading to a 15% decrease in customer support inquiries.</li>
+                                        <li class="sourcesanspro-text">Utilized development tools such as Docker Desktop, Postman, and VS Code to enhance software development practices and maintain high standards in code management.</li>
                                     </ul>
                                     <div class="col-12 text-end text-sm-start">
                                         <a class="btn btn-contact" href='https://www.ncrvoyix.com/' role="button">Visit Website</a>
@@ -538,8 +551,8 @@
                                     <h2 style="color: #efefef; padding-top: 2%;">Marketing Intern (Co-op)</h2>
                                     <h3 class="sourcesanspro-text">Social Media | Research | Outreach</h3>
                                     <ul>
-                                        <li class="sourcesanspro-text">Created cross-platform content integrating research + design, boosting engagement by 20%.</li>
-                                        <li class="sourcesanspro-text">Identified partnerships with influencers & organizations to expand outreach.</li>
+                                        <li class="sourcesanspro-text">Developed compelling cross-platform social media content that integrated research findings, marketing strategies, and graphic design elements.</li>
+                                        <li class="sourcesanspro-text">Identified potential partnerships with social media influencers, 50-30 challenge companies, and government organizations to expand MagnifyAccess's reach.</li>
                                     </ul>
                                     <div class="col-12 text-end text-sm-start">
                                         <a class="btn btn-contact" href='https://www.magnifyaccess.ai/' role="button">Visit Website</a>
@@ -565,8 +578,9 @@
                                     <h2 style="color: #efefef; padding-top: 2%;">Food Service Associate</h2>
                                     <h3 class="sourcesanspro-text">Customer Service | Cash Handling</h3>
                                     <ul>
-                                        <li class="sourcesanspro-text">Served 100+ customers daily, fostering high satisfaction and repeat business.</li>
-                                        <li class="sourcesanspro-text">Handled transactions, prepared toppings, and maintained store cleanliness.</li>
+                                        <li class="sourcesanspro-text">Served 100+ customers daily, fostering high satisfaction and repeated business.</li>
+                                        <li class="sourcesanspro-text">Executed daily operational tasks, such as handling transactions, preparing yogurt and toppings, maintaining machines, and ensuring cleanliness standards are met.</li>
+                                        <li class="sourcesanspro-text">Operated efficiently in a fast-paced environment, ensuring seamless daily operations.</li>
                                     </ul>
                                     <div class="col-12 text-end text-sm-start">
                                         <a class="btn btn-contact" href='https://www.menchies.com/' role="button">Visit Website</a>
@@ -592,8 +606,8 @@
                                     <h2 style="color: #efefef; padding-top: 2%;">Co-President</h2>
                                     <h3 class="sourcesanspro-text">Leadership | Teaching | Python</h3>
                                     <ul>
-                                        <li class="sourcesanspro-text">Led a group of 40+ students in learning Python and programming fundamentals.</li>
-                                        <li class="sourcesanspro-text">Facilitated lessons and provided mentorship to ensure understanding of CS concepts.</li>
+                                        <li class="sourcesanspro-text">Led a group of 40+ students in learning Python and the programming fundamentals.</li>
+                                        <li class="sourcesanspro-text">Facilitated teaching the Computer Science portion, addressing questions and concerns to ensure all club members grasped the concepts effectively.</li>
                                     </ul>
                                 </div>
                             </div>
