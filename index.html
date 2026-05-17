@@ -141,7 +141,7 @@
 
                 <!-- Personal intro image -->
                 <div class="col-sm-4 text-center d-none d-sm-block">
-                    <img class="intro-image img-fluid" src="./assets/pfp1.JPG" alt="Profile Picture" loading="eager">
+                    <img class="intro-image img-fluid" src="./assets/pfp1.png" alt="Profile Picture" loading="eager">
                 </div>
             </div>
 
@@ -166,11 +166,10 @@
                     <h1 class="section-subtitle" style="color: #efefef;">(Welcome)</h1>
                     <div class="line-break" style="background-color: #ffffff;"></div>
                     <p class="about-text">My name is <b>Kevin Patel</b>, and I am a
-                        <b>third-year Computer Engineering</b> student
-                        at the University of Waterloo. I am passionate about everything tech-related, 
-                        with a special interest in digital design, computer architecture, and embedded systems.
+                        <b>fourth-year Computer Engineering</b> student
+                        at the University of Waterloo. I enjoy building projects from the ground up, from schematic capture and PCB layout to firmware bring-up and hardware validation. My main interests are in PCB design, embedded hardware, and FPGA/RTL development.
                     </p>
-                    <p class="about-text">Currently, I'm on my <b>3B</b> term!</p>
+                    <p class="about-text">Currently, I'm on my <b>4A</b> term!</p>
                     <!-- About buttons -->
                     <div class="row justify-content-start align-items-center">
                         <!-- Waterloo Eng -->
@@ -234,6 +233,41 @@
 
             <!---------- Cards ---------->
             <div class="row g-0 justify-content-start">
+
+                <!-- 0. PCB / Hardware Design -->
+                <!-- Calorie Tracker PCB -->
+                <div class="card projects-large-cards mb-5 card-container" card-group="pcb">
+                    <div class="row g-0">
+                        <div class="col-lg-5 d-flex flex-column justify-content-end mb-3">
+                        <div class="card-body">
+                            <h2>Calorie Tracker PCB (ESP32)</h2>
+                            <ul>
+                            <li class="card-text">Designed a custom ESP32 handheld calorie-tracker PCB in Altium with an OLED display and button input.</li>
+                            <li class="card-text">Created custom library parts (symbols/footprints/3D models) from datasheets to support placement and routing.</li>
+                            <li class="card-text">Prepared a BOM and sourcing plan for fabrication and future assembly.</li>
+                            </ul>
+                        </div>
+
+                        <div class="badges-group-large">
+                            <a href="https://github.com/pateruu/Calorie_Tracker_PCB">
+                            <span class="badge projects-link-badge">
+                                <img alt="Clickable GitHub Icon" src="./assets/github_circle.svg" class="projects-badge-icons" style="filter: invert(1);" />
+                            </span>
+                            </a>
+                            <span class="badge projects-badge">Altium</span>
+                            <span class="badge projects-badge">ESP32</span>
+                            <span class="badge projects-badge">OLED</span>
+                            <span class="badge projects-badge">PCB</span>
+                        </div>
+                        </div>
+
+                        <div class="col-lg-7">
+                        <img class="card-img-projects" src="./assets/corner_pcb_altium.png" alt="Calorie Tracker PCB" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+
                 <!-- 1. PCB / Hardware Design -->
                 <!-- Biro-1 -->
                 <div class="card projects-large-cards mb-5 card-container" card-group="pcb">
@@ -478,6 +512,40 @@
             <!-- Experience TIMELINE -->
             <div class="timeline">
 
+                <!-- Pinkbyte (Hardware Design Engineer) -->
+                <div class="timeline mt-5">
+                    <div class="row timeline-container pt-5">
+                        <div class="flip-card">
+                        <div class="flip-card-inner">
+
+                            <!-- Front -->
+                            <div class="flip-card-front"
+                            style="background-image: url(./assets/pinkbyte.png); background-size: cover; background-repeat: no-repeat;" loading="lazy">
+                            <h2 style="color: #efefef; padding-top: 2%;">PinkByte</h2>
+                            <h3 style="color: #efefef; font-size: 1rem;">Hardware Design Engineer (Co-op)</h3>
+                            <h3 class="sourcesanspro-text" style="font-style: italic;">Jan 2026 – Present</h3>
+                            </div>
+
+                            <!-- Back -->
+                            <div class="flip-card-back">
+                            <h2 style="color: #efefef; padding-top: 2%;">Hardware Design Engineer (Co-op)</h2>
+                            <h3 class="sourcesanspro-text">Altium Designer | Schematics | BOM | PCB Libraries</h3>
+                            <ul>
+                                <li class="sourcesanspro-text">Performed Altium schematic capture and reviews; verified net connectivity and pin mapping from datasheets.</li>
+                                <li class="sourcesanspro-text">Maintained BOM hygiene: checked availability/lifecycle, proposed alternates, validated footprints for substitutions.</li>
+                                <li class="sourcesanspro-text">Built and maintained custom PCB library components (symbols/footprints/3D models) from datasheets and manufacturer drawings.</li>
+                            </ul>
+                            <div class="col-12 text-end text-sm-start">
+                                <a class="btn btn-contact" href="https://www.pinkbyte.com/" role="button">Visit Website</a>
+                            </div>
+                            </div>
+
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <!-- Pinkbyte -->
                 <div class="timeline mt-5">
                     <div class="row timeline-container pt-5">
@@ -487,7 +555,7 @@
                                     style="background-image: url(./assets/pinkbyte.png); background-size: cover; background-repeat: no-repeat;" loading="lazy">
                                     <h2 style="color: #efefef; padding-top: 2%;">PinkByte</h2>
                                     <h3 style="color: #efefef; font-size: 1rem;">Software Developer (Co-op)</h3>
-                                    <h3 class="sourcesanspro-text" style="font-style: italic;">Jan 2025 – Present</h3>
+                                    <h3 class="sourcesanspro-text" style="font-style: italic;">Jan 2025 – Jan 2026</h3>
                                 </div>
                                 <div class="flip-card-back">
                                     <h2 style="color: #efefef; padding-top: 2%;">Software Developer (Co-op)</h2>
@@ -653,10 +721,11 @@
                                     <h2 style="color: #efefef; padding-top: 2%;">Computer Engineering Student</h2>
                                     <ul>
                                         <li class="sourcesanspro-text">Program: Honours Computer Engineering</li>
-                                        <li class="sourcesanspro-text">Current Term: 3B</li>
+                                        <li class="sourcesanspro-text">Current Term: 4A</li>
                                         <li class="sourcesanspro-text">Relevant Courses:
                                             <ul>
                                                 <!-- Hardware / Architecture -->
+                                                 <li>ECE 445: Integrated Digital Electronics</li>
                                                 <li>ECE 320: Computer Architecture</li>
                                                 <li>ECE 327: Digital Hardware Systems</li>
                                                 <li>ECE 222: Digital Computers</li>
@@ -728,6 +797,9 @@
                     <h3 class="montserrat-text">Technologies</h3>
                 </div>
                 <div class="col-lg-10 text-center text-lg-start">
+                    <a class="btn btn-skills text-center" role="button" title="Altium Designer">
+                        <img src="./assets/altium_logo.png" width="64" height="64" alt="Altium Designer">
+                    </a>
                     <a class="btn btn-skills text-center" role="button">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="64" height="64" viewBox="0 0 48 48">
                             <path fill="#F4511E" d="M42.2,22.1L25.9,5.8C25.4,5.3,24.7,5,24,5c0,0,0,0,0,0c-0.7,0-1.4,0.3-1.9,0.8l-3.5,3.5l4.1,4.1c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3c0,0.5-0.1,0.9-0.3,1.3l4,4c0.4-0.2,0.8-0.3,1.3-0.3c1.7,0,3,1.3,3,3s-1.3,3-3,3c-1.7,0-3-1.3-3-3c0-0.5,0.1-0.9,0.3-1.3l-4-4c-0.1,0-0.2,0.1-0.3,0.1v10.4c1.2,0.4,2,1.5,2,2.8c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.3,0.8-2.4,2-2.8V18.8c-1.2-0.4-2-1.5-2-2.8c0-0.5,0.1-0.9,0.3-1.3l-4.1-4.1L5.8,22.1C5.3,22.6,5,23.3,5,24c0,0.7,0.3,1.4,0.8,1.9l16.3,16.3c0,0,0,0,0,0c0.5,0.5,1.2,0.8,1.9,0.8s1.4-0.3,1.9-0.8l16.3-16.3c0.5-0.5,0.8-1.2,0.8-1.9C43,23.3,42.7,22.6,42.2,22.1z"></path>

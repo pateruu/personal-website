@@ -44,7 +44,7 @@ if (/Mobi/.test(navigator.userAgent)) {
 }
 
 var typed = new Typed('.typewriter-title', {
-  strings: [ 'Seeking <b>Winter 2026</b> Internships',
+  strings: [ 'Seeking <b>Fall 2026</b> Internships',
     'Computer Engineering @ <b>University of Waterloo</b>',
     'Prev @ <b>Pinkbyte, NCR</b>'
   ],
